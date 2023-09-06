@@ -15,8 +15,6 @@ import { envValidationSchema } from '../config/env.validation';
           envConfiguration.CONNECTION_STRING_ATLAS,
         ),
         useNewUrlParser: true,
-        useFindAndModify: false,
-        useCreateIndex: true,
         useUnifiedTopology: true,
         retryWrites: false,
       }),
